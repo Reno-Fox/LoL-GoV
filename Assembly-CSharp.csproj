@@ -50,9 +50,13 @@
      <Compile Include="Assets\Burg\Item System\Scripts\ISQualityDatabase.cs" />
      <Compile Include="Assets\Burg\Item System\Scripts\Interfaces\IISObject.cs" />
      <Compile Include="Assets\Burg\Item System\Scripts\Interfaces\IISQuality.cs" />
-     <Compile Include="Assets\Resources\Card.cs" />
-     <Compile Include="Assets\Resources\CardContainer.cs" />
-     <Compile Include="Assets\Resources\CardLoader.cs" />
+     <Compile Include="Assets\Resources\Champion.cs" />
+     <Compile Include="Assets\Resources\ChampionContainer.cs" />
+     <Compile Include="Assets\Resources\ChampionInfo.cs" />
+     <Compile Include="Assets\Resources\ChampionLoader.cs" />
+     <Compile Include="Assets\Resources\Heros.cs" />
+     <Compile Include="Assets\Resources\SpawnScript.cs" />
+     <Compile Include="Assets\Resources\thisisatestclass.cs" />
      <Compile Include="Assets\Scripts\ChangeMusic.cs" />
      <Compile Include="Assets\Scripts\DeckOfCards.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
@@ -64,8 +68,7 @@
      <Compile Include="Assets\Scripts\LoadAdditive.cs" />
      <Compile Include="Assets\Scripts\LoadOnClick.cs" />
      <Compile Include="Assets\Scripts\TogglePanelButton.cs" />
-     <None Include="Assets\Resources\cards.xml" />
-     <None Include="Assets\Resources\2cards.xml" />
+     <None Include="Assets\Resources\champions.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>H:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

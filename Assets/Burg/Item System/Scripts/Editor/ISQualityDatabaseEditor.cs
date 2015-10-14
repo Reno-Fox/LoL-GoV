@@ -22,7 +22,7 @@ namespace Burg.ItemSystem.Editor
         {
             ISQualityDatabaseEditor window = EditorWindow.GetWindow<ISQualityDatabaseEditor>();
             window.minSize = new Vector2(400, 300);
-            window.title = "Quality DB";
+            //window.title = "Quality DB";
             window.Show();
 
         }
