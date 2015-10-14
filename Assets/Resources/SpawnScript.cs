@@ -40,7 +40,7 @@ public class SpawnScript : MonoBehaviour
     void Spawn()
     {
         Champion c = GetRandomCard();
-        print(c.Name);
+        print(c.name);
 
 
         ////GameObject newCard = (GameObject)Instantiate(obj[Random.Range(0, obj.GetLength(0))], transform.position, Quaternion.identity);

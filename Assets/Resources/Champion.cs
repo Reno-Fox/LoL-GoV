@@ -5,60 +5,36 @@ using System.Xml.Serialization;
 
 public class Champion {
 
-    [XmlAttribute("Name")]
-    public string Name;
+    [XmlElement("ID")]
+    public float ID;
 
-    [XmlElement("HP")]
-    public float HP;
+    [XmlAttribute("name")]
+    public string name;
 
-    [XmlElement("HPL")]
-    public float HPL;
+    [XmlElement("picture")]
+    public float picture;
 
-    [XmlElement("HPR")]
-    public float HPR;
+    [XmlElement("attack")]
+    public float attack;
 
-    [XmlElement("HPRL")]
-    public float HPRL;
+    [XmlElement("health")]
+    public float health;
 
-    [XmlElement("MP")]
-    public float MP;
+    [XmlElement("delay")]
+    public float delay;
 
-    [XmlElement("MPL")]
-    public float MPL;
+    [XmlElement("rarity")]
+    public float rarity;
 
-    [XmlElement("MPR")]
-    public float MPR;
+    [XmlElement("type")]
+    public float type;
 
-    [XmlElement("MPRL")]
-    public float MPRL;
+    [XmlElement("set")]
+    public float set;
 
-    [XmlElement("AD")]
-    public float AD;
+    [XmlElement("skill")]
+    public float skill;
 
-    [XmlElement("ADL")]
-    public float ADL;
-
-    [XmlElement("AS")]
-    public float AS;
-
-    [XmlElement("ASL")]
-    public float ASL;
-
-    [XmlElement("AR")]
-    public float AR;
-
-    [XmlElement("ARL")]
-    public float ARL;
-
-    [XmlElement("MR")]
-    public float MR;
-
-    [XmlElement("MRL")]
-    public float MRL;
-
-    [XmlElement("MS")]
-    public float MS;
-
-    [XmlElement("Range")]
-    public float Range;
+    [XmlElement("skill2")]
+    public float skill2;
 }

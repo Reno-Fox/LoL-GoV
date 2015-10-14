@@ -12,8 +12,8 @@ public class Heros : MonoBehaviour
 
     void GetChampionData(Champion c)
     {
-        Name = c.Name;
-        HP = c.HP;
+        Name = c.name;
+        HP = c.health;
     }
 
     void Start()
