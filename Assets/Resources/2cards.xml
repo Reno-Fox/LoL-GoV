@@ -1,0 +1,17 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<CardCollection>
+  <Cards>
+    <Card name="Alistar">
+      <attack>5</attack>
+      <Health>21</Health>
+    </Card>
+    <Card name="Amumu">
+      <attack>3</attack>
+      <Health>22</Health>
+    </Card>
+    <Card name="Annie">
+      <attack>5</attack>
+      <Health>17</Health>
+    </Card>
+  </Cards>
+</CardCollection>
