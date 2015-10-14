@@ -56,7 +56,6 @@
      <Compile Include="Assets\Resources\ChampionLoader.cs" />
      <Compile Include="Assets\Resources\Heros.cs" />
      <Compile Include="Assets\Resources\SpawnScript.cs" />
-     <Compile Include="Assets\Resources\thisisatestclass.cs" />
      <Compile Include="Assets\Scripts\ChangeMusic.cs" />
      <Compile Include="Assets\Scripts\DeckOfCards.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
